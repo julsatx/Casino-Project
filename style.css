@@ -1,32 +1,11 @@
 @font-face{
-		src: url(/home/julsatx/Desktop/practice/Casino3DLinesMarquee.ttf);
+		src: url(/home/julsatx/ga/Casino-Project/photos/Casino3DLinesMarquee.ttf);
 	font-family: casino3dLinesMarquee;
 }
-@font-face{
-	src: url(/home/julsatx/Desktop/practice/Casino3DMarquee-Italic.ttf);
-	font-family: casinoItalic;
-}
-@font-face{
-	src: url(/home/julsatx/Desktop/practice/Casino3DFilledMarquee-Italic.ttf);
-	font-family: casinoFilled;
-}
 
-@font-face{
-	src: url(/home/julsatx/Desktop/practice/Casino.ttf);
-	font-family: casino;
-}
-@font-face{
-	src: url(/home/julsatx/Desktop/practice/Casino3D.ttf);
-	font-family: casinoplain;
-}
-
-@font-face{
-	src: url(/home/julsatx/Desktop/practice/CasinoShadow.ttf);
-	font-family: casinoShadow;
-}
 
 #startPage{
-	background-image: url(/home/julsatx/Pictures/casino.gif);
+	background-image: url(/home/julsatx/ga/Casino-Project/photos/casino.gif);
 	background-repeat: no-repeat;
 	background-position: fixed;
 	background-size: 100% 95%;
@@ -35,7 +14,7 @@
 }
 
 #guessNumber{
-	background-image: url(/home/julsatx/Pictures/las-vegas.jpg);
+	background-image: url(/home/julsatx/ga/Casino-Project/photos/vegasViewFlipCoin.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: fixed center;
@@ -58,7 +37,7 @@
 
 
 }
-#coinGame{
+/*#coinGame{
 	background-image: url(/home/julsatx/Pictures/vegasViewFlipCoin.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -67,10 +46,10 @@
 	display: flex;
 	color: yellow;
 	background-color:;
-}
+}*/
 
 #returnResult{
-	color: red;
+	color: black;
 }
 #coinGame {
 	height: 50%;

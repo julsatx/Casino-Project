@@ -88,27 +88,3 @@ $(document).ready(function(){
 $("#MainMenu").click(function(){
 	location.reload()
 })
-
-
-
-
-    function coin(){
-         return Math.random();
-    }
-    function toss(coin){
-        if (coin > .5 ){
-            $('#flip').text('heads!');
-        } else if (coin <= .5) {
-            $('#flip').text('tails!');
-        } else{
-            console.log('error');    
-        }
-    }
-    $('#eddieButton').on('click', function(){
-    	toss(coin());
-    })
-    $('#chevyButton').on('click', function() {
-        toss(coin());
-    });
-
-
