@@ -1,0 +1,120 @@
+@font-face{
+		src: url(/home/julsatx/Desktop/practice/Casino3DLinesMarquee.ttf);
+	font-family: casino3dLinesMarquee;
+}
+@font-face{
+	src: url(/home/julsatx/Desktop/practice/Casino3DMarquee-Italic.ttf);
+	font-family: casinoItalic;
+}
+@font-face{
+	src: url(/home/julsatx/Desktop/practice/Casino3DFilledMarquee-Italic.ttf);
+	font-family: casinoFilled;
+}
+
+@font-face{
+	src: url(/home/julsatx/Desktop/practice/Casino.ttf);
+	font-family: casino;
+}
+@font-face{
+	src: url(/home/julsatx/Desktop/practice/Casino3D.ttf);
+	font-family: casinoplain;
+}
+
+@font-face{
+	src: url(/home/julsatx/Desktop/practice/CasinoShadow.ttf);
+	font-family: casinoShadow;
+}
+
+#startPage{
+	background-image: url(/home/julsatx/Pictures/casino.gif);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: 100% 95%;
+	height: 100vh;
+	
+}
+
+#guessNumber{
+	background-image: url(/home/julsatx/Pictures/las-vegas.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed center;
+	height: 100vh;
+	font-size:20px;
+	color: white;
+	font-family:'poppins', sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+#guessNumber h1{
+	font-size: 35px;
+	text-align: center;
+	margin: 0px;
+	padding: 25px 0 0 0;
+	font-family: 'poppins';
+	/*box-shadow: 20px 20px 2px rgba(0,0,0,1);*/
+
+
+}
+#coinGame{
+	background-image: url(/home/julsatx/Pictures/vegasViewFlipCoin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	font-size: 50px;
+	display: flex;
+	color: yellow;
+	background-color:;
+}
+
+#returnResult{
+	color: red;
+}
+#coinGame {
+	height: 50%;
+	align-self: flex-end;
+	background-color: red;
+}
+#coinGame img{
+	border-radius: 65%;
+	width: 50%;
+	transition: 1s;
+	
+}
+
+
+#coinGame img:hover{
+	transform: scale(1.1);
+	transform-origin: center;
+	background-color: ;
+
+}
+.btn-group button {
+  background-color: #333;
+  border: 1px solid gold;
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
+  font-family: casino3dLinesMarquee;
+  font-size: 20px;
+  color: gold;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+  width: 100%
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.btn-group button:hover {
+  background-color: #3e8e41;
+}

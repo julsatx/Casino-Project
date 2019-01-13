@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Casino Project</title>
+	<meta charset="utf-8">
+	<script src="http://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous"">		
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<header> <div class="btn-group">
+  <button id="MainMenu" style="width: 33.3%">Main Menu</button>
+  <button id="number" style="width: 33.3%">Guess A Number!</button>
+  <button id="coin/" style="width:33.3%">Guess A Coin</button>
+ </div> </header>
+<body>
+	<section id="startPage">Press a game to start! 
+	</section>
+	<section id="coinGame">
+		<div class="coinStuff">
+		<p><strong>Result:</strong></p>
+		<p id="flip">x</p>
+		<div id="chevyButton"><img src="/home/julsatx/Pictures/ChevyButton.png">
+		</div>
+		<div id="eddieButton"><img src="/home/julsatx/Pictures/cousinEddieButton.png">
+		</div>
+	</div>
+	</section>
+	
+	<section id ="guessNumber">
+		<h1> Guess a number! </h1>
+		<container id="numberContain">
+		<p id="welcome">Enter an amount to BET between 1 and
+		<span id="currentAmount">50</span>!
+		</p>	
+		<input type="number" autocomplete="off" id="bet" placeholder="enter a bet amount!">
+	 	<p id="pick">Choose a number between 1 and 10!</p>	
+	 	<p>
+		<input type="number" autocomplete="off" id="guess" placeholder="enter a number!" required=""></>
+		<button id="placeBetButton" type="button" > Place Bet!</button>
+		</p>
+		<span id="returnResult"></span>
+		<span id="moneyLeft"></span>
+		</container>
+		<img id="will" src="/home/julsatx/Pictures/will.gif">
+		
+	</section>	
+<script src="app.js"></script>
+</body>
+</html>
