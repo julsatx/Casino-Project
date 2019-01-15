@@ -37,25 +37,34 @@
 
 
 }
-/*#coinGame{
-	background-image: url(/home/julsatx/Pictures/vegasViewFlipCoin.jpg);
+#coinGame{
+	background-image: url(/home/julsatx/ga/Casino-Project/photos/las-vegas.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: fixed center;
 	height: 100vh;
-	font-size: 50px;
-	display: flex;
-	color: yellow;
-	background-color:;
-}*/
+	font-size:20px;
+	color: white;
+	font-family:'poppins', sans-serif;
+	text-align: center;
+}
+
+#coinGame h1{
+	font-size: 35px;
+	text-align: center;
+	margin: 0px;
+	padding: 25px 0 0 0;
+	font-family: 'poppins';	
+}
 
 #returnResult{
 	color: black;
 }
-#coinGame {
+/*#coinGame {
 	height: 50%;
 	align-self: flex-end;
-	background-color: red;
-}
+	background-color: red*/
+
 #coinGame img{
 	border-radius: 65%;
 	width: 50%;
